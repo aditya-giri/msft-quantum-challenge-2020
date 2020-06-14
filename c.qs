@@ -1,3 +1,7 @@
+// You are given two qubits in state |00⟩. Your task is to prepare the following state on them:
+// 1/sqrt(3)[(|01⟩+|10⟩+|11⟩)]
+// This task is very similar to problem A1 of the Winter 2019 contest, but this time you are not allowed to use any gates except the Pauli gates (X, Y and Z), the Hadamard gate and the controlled versions of those. However, you are allowed to use measurements.
+
 namespace Solution {
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Convert;
