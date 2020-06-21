@@ -4,7 +4,7 @@ namespace Solution {
     open Microsoft.Quantum.Math;
 
     operation Solve_a5 (theta : Double, unitary : (Qubit => Unit is Adj+Ctl)) : Int {
-        mutable multiple_of_pi = Truncate(theta*100.0/PI());
+        mutable multiple_of_pi = Truncate(theta*1000.0/PI());
         mutable num = 1000;
         if (multiple_of_pi % 2 == 0) {
             set num = 1001;
