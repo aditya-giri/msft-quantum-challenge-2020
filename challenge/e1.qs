@@ -9,4 +9,4 @@ namespace Solution {
             QFTLE(inputRegister);
         }
     }
-]
+}

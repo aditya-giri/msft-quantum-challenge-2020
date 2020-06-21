@@ -20,7 +20,7 @@ namespace Solution {
         else {
             for (q1 in 0 .. Length(inputs)-2) {
                 for (q2 in q1+1 .. Length(inputs)-1) {
-                    Solve([inputs[q1], inputs[q2]], output);
+                    Solve_b1([inputs[q1], inputs[q2]], output);
                 }
             }
             if (Length(inputs) % 2 == 0) {
