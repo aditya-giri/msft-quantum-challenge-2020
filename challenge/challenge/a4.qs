@@ -1,6 +1,7 @@
 namespace Solution {
 
     open Microsoft.Quantum.Intrinsic;
+    open Microsoft.Quantum.Math;
 
     operation Solve_a4 (unitary : ((Double, Qubit) => Unit is Adj+Ctl)) : Int {
         using (q = Qubit[2]) {
